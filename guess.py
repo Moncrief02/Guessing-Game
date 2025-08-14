@@ -1,6 +1,7 @@
 import random
 
-word_bank = ['rizz', 'ohio', 'sigma', 'tiktok', 'skibidi']
+word_bank = ['rizz', 'ohio', 'sigma', 'tiktok', 'skibidi','rainbow', 'computer', 'science', 'programming',
+         'python', 'mathematics', 'player', 'condition','reverse', 'water', 'board', 'geeks']
 word = random.choice(word_bank)
 guessedWord = ['_'] * len(word)
 attempts = 10
